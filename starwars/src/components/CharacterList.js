@@ -3,7 +3,7 @@ import Padawan from "./Padawan";
 
 const CharacterList = props => {
   return (
-    <div>
+    <div className="char-container">
       {props.person.map(char => {
         return <Padawan char={char} />;
       })}

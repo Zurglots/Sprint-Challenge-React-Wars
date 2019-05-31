@@ -1,8 +1,36 @@
 .App {
   text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; */
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: "Righteous", cursive;
 }
+
+.char-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.char-card {
+  display: flex;
+  justify-content: center;
+  width: 28%;
+  height: 200px;
+  margin: 0 auto 15px;
+  background: gray;
+  border-radius: 15px;
+  font-family: "Righteous", cursive;
+}
+
+p {
+  color: #fafafa;
+}
+
 /* write your parent styles in here for your App.js */
